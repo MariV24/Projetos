@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PICS</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="manifest" href="manifest.json">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="msapplication-TileImage" content="assets/AppIcon.appiconset/144.png">
+        <meta name="msapplication-TileColor" content="#011C40">
+        <meta name="theme-color" content="#011C40" />
+        <link rel="shortcut icon" sizes="196x196" href="assets/AppIcon.appiconset/196.png">
+    
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="PWA Teste">
+        <link rel="apple-touch-icon" href="assets/AppIcon.appiconset/144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/AppIcon.appiconset/152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/AppIcon.appiconset/180.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="assets/AppIcon.appiconset/167.png">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="icon" type="image/png" href="assets/AppIcon.appiconset/144.png">
+
+
+        <style>
+            #snackbar {
+              visibility: hidden;
+              min-width: 250px;
+              margin-left: -125px;
+              background-color: #333;
+              color: #fff;
+              text-align: center;
+              border-radius: 2px;
+              padding: 16px;
+              position: fixed;
+              z-index: 1;
+              left: 50%;
+              bottom: 30px;
+            }
+
+            #snackbar.show {
+                visibility: visible;
+                -webkit-animation: fadein 0.5s;
+                animation: fadein 0.5s;
+            }
+            #nav-logo{
+                background-color: #011C40;
+                
+            }
+
+            #logo{
+                padding-left: 10px;
+                padding-top: 15px;
+            }
+
+
+            #nav-footer{
+                position: absolute;
+                background-color: #011C40;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                width: 100%;
+                height: 29px;
+            }
+
+            /* Style the navigation bar */
+            .navbar {
+            width: 100%;
+            overflow: hidden;
+            position: absolute;
+            bottom: 0;
+            display: block;
+            clear:both;
+            }
+
+            /* Navbar links */
+            .navbar a {
+            float: 50%;
+            text-align: center;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            }
+
+            /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels 
+            @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }}*/
+
+            #formulario1{
+              padding: 20px;
+            }
+
+            #body{
+              padding: 10px;
+              padding-bottom: 60px;
+            }
+
+            #header{
+              text-align: center;
+            }
+
+        </style>    
+    </head>
+    
+    <body>
+        <div id="header">
+          <!-- Image and text -->
+          <nav id ="nav-logo"class="">
+              <a class="" href="index.html">
+              <img id = "logo" src="assets/1.jpg" width="100" height="100" class="d-inline-block align-top" alt="Logo Pics">
+              
+              </a>
+          </nav>
+        </div>
+
+        <div id="body">
+
+          <form id="formulario1">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nome do Gestor:</label>
+                <input type="text" class="form-control" id="input_nome_gestor" aria-describedby="emailHelp" placeholder="Seu nome...">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">Nome da Usina:</label>
+                <input type="text" class="form-control" id="input_nome_usina" placeholder="Ex.: Usina Tabajara...">
+              </div>
+
+              <div class="form-group">
+                  <label for="exampleInputPassword1">Endereço da Usina:</label>
+                  <input type="text" class="form-control" id="input_nome_usina" placeholder="Ex.: Rua Azul...">
+                </div>
+              
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </form>
+        </div>
+
+        <nav id="nav-footer">
+            <!-- Load an icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <div class="navbar">
+            <a href="index.html"><i class="fa fa-fw fa-home"></i></a>
+            <a href="#"><i class="fa fa-fw fa-plus"></i></a>
+            <a href="#"><i class="fa fa-fw fa-pencil"></i></a>
+            <a href="#"><i class="fa fa-fw fa-dashboard"></i></a>
+            </div> 
+
+        </nav>
+
+        <!-- Coisas do servisse-worker-->
+        <script type="module">
+            let newWorker;
+            function showUpdateBar() {
+              let snackbar = document.getElementById('snackbar');
+              snackbar.className = 'show';
+            }
+            // The click event on the pop up notification
+            document.getElementById('reload').addEventListener('click', function () {
+              newWorker.postMessage({ action: 'skipWaiting' });
+            });
+            if ('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/service-worker.js').then(reg => {
+                reg.addEventListener('updatefound', () => {
+                // A wild service worker has appeared in reg.installing!
+                newWorker = reg.installing;
+                newWorker.addEventListener('statechange', () => {
+                // Has network.state changed?
+                   switch (newWorker.state) {
+                   case 'installed':
+                     if (navigator.serviceWorker.controller) {
+                     // new update available
+                       showUpdateBar();
+                     }
+                    // No update available
+                   break;
+                   }
+                });
+              });
+            });
+              let refreshing;
+              navigator.serviceWorker.addEventListener('controllerchange', function () {
+                if (refreshing) return;
+                window.location.reload();
+                refreshing = true;
+              })
+            }
+        </script>    
+    </body>
+</html>

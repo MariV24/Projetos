@@ -1,0 +1,442 @@
+{
+  "icons":[{
+    "size":"60x60",
+    "expected-size":"180",
+    "filename":"180.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"3x"
+},
+{
+    "size":"40x40",
+    "expected-size":"80",
+    "filename":"80.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"2x"
+},
+{
+    "size":"40x40",
+    "expected-size":"120",
+    "filename":"120.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"3x"
+},
+{
+    "size":"60x60",
+    "expected-size":"120",
+    "filename":"120.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"2x"
+},
+{
+    "size":"57x57",
+    "expected-size":"57",
+    "filename":"57.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"1x"
+},
+{
+    "size":"29x29",
+    "expected-size":"58",
+    "filename":"58.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"2x"
+},
+{
+    "size":"29x29",
+    "expected-size":"29",
+    "filename":"29.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"1x"
+},
+{
+    "size":"29x29",
+    "expected-size":"87",
+    "filename":"87.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"3x"
+},
+{
+    "size":"57x57",
+    "expected-size":"114",
+    "filename":"114.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"2x"
+},
+{
+    "size":"20x20",
+    "expected-size":"40",
+    "filename":"40.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"2x"
+},
+{
+    "size":"20x20",
+    "expected-size":"60",
+    "filename":"60.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"iphone",
+    "scale":"3x"
+},
+{
+    "size":"1024x1024",
+    "filename":"1024.png",
+    "expected-size":"1024",
+    "idiom":"ios-marketing",
+    "folder":"assets/AppIcon.appiconset/",
+    "scale":"1x"
+},
+{
+    "size":"40x40",
+    "expected-size":"80",
+    "filename":"80.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"2x"
+},
+{
+    "size":"72x72",
+    "expected-size":"72",
+    "filename":"72.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"1x"
+},
+{
+    "size":"76x76",
+    "expected-size":"152",
+    "filename":"152.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"2x"
+},
+{
+    "size":"50x50",
+    "expected-size":"100",
+    "filename":"100.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"2x"
+},
+{
+    "size":"29x29",
+    "expected-size":"58",
+    "filename":"58.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"2x"
+},
+{
+    "size":"76x76",
+    "expected-size":"76",
+    "filename":"76.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"1x"
+},
+{
+    "size":"29x29",
+    "expected-size":"29",
+    "filename":"29.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"1x"
+},
+{
+    "size":"50x50",
+    "expected-size":"50",
+    "filename":"50.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"1x"
+},
+{
+    "size":"72x72",
+    "expected-size":"144",
+    "filename":"144.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"2x"
+},
+{
+    "size":"40x40",
+    "expected-size":"40",
+    "filename":"40.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"1x"
+},
+{
+    "size":"83.5x83.5",
+    "expected-size":"167",
+    "filename":"167.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"2x"
+},
+{
+    "size":"20x20",
+    "expected-size":"20",
+    "filename":"20.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad",
+    "scale":"1x"
+},
+{
+    "size":"20x20",
+    "expected-size":"40",
+    "filename":"40.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"ipad","scale":"2x"
+},
+{
+    "idiom":"watch",
+    "filename":"172.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"38mm",
+    "scale":"2x",
+    "size":"86x86",
+    "expected-size":"172",
+    "role":"quickLook"
+},
+{
+    "idiom":"watch",
+    "filename":"80.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"38mm",
+    "scale":"2x",
+    "size":"40x40",
+    "expected-size":"80",
+    "role":"appLauncher"
+},
+{
+    "idiom":"watch",
+    "filename":"88.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"40mm",
+    "scale":"2x",
+    "size":"44x44",
+    "expected-size":"88",
+    "role":"appLauncher"
+},
+{
+    "idiom":"watch",
+    "filename":"100.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"44mm",
+    "scale":"2x",
+    "size":"50x50",
+    "expected-size":"100",
+    "role":"appLauncher"
+},
+{
+    "idiom":"watch",
+    "filename":"196.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"42mm",
+    "scale":"2x",
+    "size":"98x98",
+    "expected-size":"196",
+    "role":"quickLook"
+},
+{
+    "idiom":"watch",
+    "filename":"216.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"44mm",
+    "scale":"2x",
+    "size":"108x108",
+    "expected-size":"216",
+    "role":"quickLook"
+},
+{
+    "idiom":"watch",
+    "filename":"48.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"38mm",
+    "scale":"2x",
+    "size":"24x24",
+    "expected-size":"48",
+    "role":"notificationCenter"
+},
+{
+    "idiom":"watch",
+    "filename":"55.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "subtype":"42mm",
+    "scale":"2x",
+    "size":"27.5x27.5",
+    "expected-size":"55",
+    "role":"notificationCenter"
+},
+{
+    "size":"29x29",
+    "expected-size":"87",
+    "filename":"87.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"watch",
+    "role":"companionSettings",
+    "scale":"3x"
+},
+{
+    "size":"29x29",
+    "expected-size":"58",
+    "filename":"58.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"watch",
+    "role":"companionSettings",
+    "scale":"2x"
+},
+{
+    "size":"1024x1024",
+    "expected-size":"1024",
+    "filename":"1024.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"watch-marketing",
+    "scale":"1x"
+},
+{
+    "size":"128x128",
+    "expected-size":"128",
+    "filename":"128.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"1x"
+},
+{
+    "size":"256x256",
+    "expected-size":"256",
+    "filename":"256.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"1x"
+},
+{
+    "size":"128x128",
+    "expected-size":"256",
+    "filename":"256.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"2x"
+},
+{
+    "size":"256x256",
+    "expected-size":"512",
+    "filename":"512.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"2x"
+},
+{
+    "size":"32x32",
+    "expected-size":"32",
+    "filename":"32.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"1x"
+},
+{
+    "size":"512x512",
+    "expected-size":"512",
+    "filename":"512.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"1x"
+},
+{
+    "size":"16x16",
+    "expected-size":"16",
+    "filename":"16.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"1x"
+},
+{
+    "size":"16x16",
+    "expected-size":"32",
+    "filename":"32.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"2x"
+},
+{
+    "size":"32x32",
+    "expected-size":"64",
+    "filename":"64.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac","scale":"2x"
+},
+{
+    "size":"512x512",
+    "expected-size":"1024",
+    "filename":"1024.png",
+    "folder":"assets/AppIcon.appiconset/",
+    "idiom":"mac",
+    "scale":"2x"
+}
+],
+
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/search?q=calculadora&c=apps&androidId=115598875121471378130",
+      "id": "PICS PWA"
+    }
+  ],
+
+  "screenshots" : [
+    {
+      "src": "screenshot1.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Homescreen of Awesome App"
+    }
+  ],
+
+  "shortcuts" : [
+    {
+      "name": "PICS PWA",
+      "url": "/index.html",
+      "description": "Página inicial do site"
+    },
+    {
+      "name": "",
+      "url": "/"
+    },
+    {
+      "name": "",
+      "url": "/"
+    }
+  ],
+
+  "share_target": {
+    "action": "/share-target/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "PICS PWA",
+      "text": "Soluções de Cybersegurança",
+      "url": "https://"
+    }
+  },
+  
+  "start_url": "/index.html",
+  "dir": "ltr",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "whitesmoke",
+  "theme_color": "#000000",
+  "description": "PICS PWA",
+  "categories": ["Mapeamento", "Segurança digital", "Cyubersegurança", "Consultoria online"]
+}
